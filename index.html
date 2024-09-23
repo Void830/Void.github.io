@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Void's Game Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1E1E2E;
+            color: white;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            color: #3498db;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 800px;
+            background-color: #2C2C54;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+            text-align: center;
+        }
+
+        .buttons {
+            margin-top: 20px;
+        }
+
+        .button {
+            background-color: #3498db;
+            border: none;
+            color: white;
+            padding: 15px 30px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 10px 20px;
+            border-radius: 25px;
+            transition: 0.3s;
+        }
+
+        .button:hover {
+            background-color: #2980b9;
+            cursor: pointer;
+        }
+
+        footer {
+            position: absolute;
+            bottom: 20px;
+            text-align: center;
+            font-size: 14px;
+            color: #95a5a6;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Void's Game Page</h1>
+        <p>Explore, play, and have fun!</p>
+    </header>
+
+    <div class="container">
+        <p>Hey, I'm Void! This is where I showcase my game projects and ideas. Check out the buttons below to jump into action.</p>
+        <div class="buttons">
+            <button class="button" onclick="alert('Obby coming soon!');">Obby</button>
+            <button class="button" onclick="alert('Flappy Bird coming soon!');">Flappy Bird</button>
+            <button class="button" onclick="alert('Fighting Game coming soon!');">Fighting Game</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>Created by Void &copy; 2024</p>
+    </footer>
+</body>
+</html>
